@@ -1,0 +1,67 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-image: url('https://img.freepik.com/free-vector/gradient-colorful-disco-ball_23-2148913433.jpg');
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+
+/* .dancer{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:0px; top:0px;}
+  50%  {background-color:blue; left:0px; top:300px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+} */
+
+.blinky {
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+.slow {
+  border:5px solid yellow;
+  border-radius:20px;
+  position:absolute;
+}
+
+.mezwed {
+  border:20px solid green;
+  border-radius:50px;
+  position:absolute;
+}
+
+button {
+  border-radius: 25px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 160);
+}
